@@ -2,7 +2,6 @@
 # James Watson, 2021-03
 # Open terminal with a collection of designated tabs
 
-sleep 15s;
 # _MODE=simon;
 
 gnome-terminal --geometry=140x30 --title="mongo" -- /bin/bash -c "cd ~/Simon; mongod; exec bash" 
